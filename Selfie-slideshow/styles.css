@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Avenir Next", "Montserrat", sans-serif;
+    background: linear-gradient(to top, #303185 0%, #000000 100%);
+    min-height: 100vh;
+    padding: 50px; 
+}
+
+.wrap {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #eaeaf3;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0,0.15);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #181943;
+    font-size: 3rem; 
+}
+
+h2 {
+    text-align: center;
+    color: #181943;
+    font-size: 2rem; 
+}
+
+.slideshow-container {
+    text-align: center; 
+    margin-bottom: 24px;
+    position: relative;
+    height:auto;
+}
+
+#slideImage {
+    max-width: 100%;
+    height: auto; 
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+#caption {
+    margin-top: 20px; 
+    font-size: 18px;
+    color: #181943; 
+    font-weight: 500;
+}
+
+.controls {
+    display: flex; 
+    gap: 16px; 
+    justify-content: center;
+}
+
+button {
+    padding: 12px 24px; 
+    font-size: 16px; 
+    background: #303185; 
+    color: #eaeaf3; 
+    border: none; 
+    border-radius: 6px;
+    cursor: pointer; 
+    font-weight: 500;
+    transition: background 0.3s; 
+}
+
+button:hover {
+    background: #8383b6;
+}
+
+button:active {
+    transform: scale(0.98);
+}
