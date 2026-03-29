@@ -98,7 +98,7 @@ class Clock {
         }, 95000);
 
         setTimeout(() => {
-            this.sassyClock.innerText += "\n\nLike the sands through an hourglass"; 
+            this.sassyClock.innerText += "\n\nlike the sands through an hourglass"; 
         }, 100000);
 
         setTimeout(() => {

@@ -73,7 +73,7 @@ var Clock = /** @class */ (function () {
             _this.sassyClock.innerText += "\n\nbecause";
         }, 95000);
         setTimeout(function () {
-            _this.sassyClock.innerText += "\n\nLike the sands through an hourglass";
+            _this.sassyClock.innerText += "\n\nlike the sands through an hourglass";
         }, 100000);
         setTimeout(function () {
             _this.sassyClock.innerText += "\n\nTime waits for no one...";
