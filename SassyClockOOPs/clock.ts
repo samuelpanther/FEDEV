@@ -94,16 +94,20 @@ class Clock {
         }, 90000);
 
         setTimeout(() => {
-            this.sassyClock.innerText += "\n\nLike the sand through an hourglass"; 
+            this.sassyClock.innerText += "\n\nbecause"; 
         }, 95000);
 
         setTimeout(() => {
-            this.sassyClock.innerText += "\n\nTime waits for no one..."; 
+            this.sassyClock.innerText += "\n\nLike the sands through an hourglass"; 
         }, 100000);
 
         setTimeout(() => {
-            this.sassyClock.innerText += "\n\nBut I will just keep on ticking."; 
+            this.sassyClock.innerText += "\n\nTime waits for no one..."; 
         }, 105000);
+
+        setTimeout(() => {
+            this.sassyClock.innerText += "\n\nbut I will just keep on ticking."; 
+        }, 110000);
 
     }
 }

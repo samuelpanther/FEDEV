@@ -70,14 +70,17 @@ var Clock = /** @class */ (function () {
             _this.sassyClock.innerText += "\n\nand make your life meaningful";
         }, 90000);
         setTimeout(function () {
-            _this.sassyClock.innerText += "\n\nLike the sand through an hourglass";
+            _this.sassyClock.innerText += "\n\nbecause";
         }, 95000);
         setTimeout(function () {
-            _this.sassyClock.innerText += "\n\nTime waits for no one...";
+            _this.sassyClock.innerText += "\n\nLike the sands through an hourglass";
         }, 100000);
         setTimeout(function () {
-            _this.sassyClock.innerText += "\n\nBut I will just keep on ticking.";
+            _this.sassyClock.innerText += "\n\nTime waits for no one...";
         }, 105000);
+        setTimeout(function () {
+            _this.sassyClock.innerText += "\n\nbut I will just keep on ticking.";
+        }, 110000);
     };
     return Clock;
 }());
