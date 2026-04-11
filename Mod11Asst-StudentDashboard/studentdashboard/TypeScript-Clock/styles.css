@@ -1,0 +1,31 @@
+body {
+    font-family: system-ui, sans-serif;
+    margin: 24px;
+    background-color: #333131;
+}
+
+.wrap {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#output {
+    margin: 20px auto; 
+    width: fit-content;
+    background: #333131;
+    padding: 16px;
+    border-radius: 8px;
+    white-space: pre-wrap;
+    line-height: 1.5;
+    font-family: "Bitcount Prop Double Ink", system-ui, sans-serif;
+    color: #c77cc7;
+    font-size: 30px; 
+    text-align: center;
+}
+
+h1 {
+    font-family: "Bitcount Prop Double Ink", system-ui, sans-serif; 
+    margin-top: 30vh;
+    font-size: clamp(32px, 8vw, 60px);
+    text-align: center;
+}

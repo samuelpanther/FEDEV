@@ -1,0 +1,49 @@
+/* sam -font stacks and fallback colors should work, but always keep an eye on this as you come back to update file */
+
+
+body {
+    font-family: "Bitcount Prop Double Ink", "Tilt Neon", Impact, sans-serif;;
+    margin: 24px;
+    background-color: #333131;
+}
+
+.wrap {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#output {
+    margin: 20px auto; 
+    width: fit-content;
+    background: #333131;     
+    padding: 16px;
+    border-radius: 8px;
+    white-space: pre-wrap;
+    line-height: 1.5;
+    font-family: "Bitcount Prop Double Ink", "Tilt Neon", Impact, sans-serif;
+    color: #c119c1;
+    font-size: 30px; 
+    text-align: center;
+}
+
+h1 {
+    font-family: "Bitcount Prop Double Ink", "Tilt Neon", Impact, sans-serif; 
+    color: #c119c1;
+    margin-top: 30vh;
+    font-size: clamp(32px, 8vw, 60px);
+    text-align: center;
+}
+
+
+/*  
+.tilt-neon-<uniquifier> {
+  font-family: "Tilt Neon", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+}
+
+*/
