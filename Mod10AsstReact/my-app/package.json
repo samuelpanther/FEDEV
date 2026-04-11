@@ -6,7 +6,7 @@
   "type": "module",
   "homepage": "https://samuelpanther.github.io/FEDEV/Mod10AsstReact",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --open",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
