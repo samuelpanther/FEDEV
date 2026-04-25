@@ -256,7 +256,6 @@ return (
       legend: {
         position: "right", 
         labels: {
-          position: "right",
           color: "#ffffff",  
           font: {
             size: 14,  
